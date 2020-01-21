@@ -273,7 +273,7 @@ h4
   display: block;
   font-size: 13px;
   text-transform: uppercase;
-  color: 	#33CC99;
+  color:  #33CC99;
   font-weight: 500;
   letter-spacing: 5px;
 }
@@ -550,6 +550,16 @@ h4
 .progress-bar.color-6 span {
   color: #4054b2;
 }
+.progress-bar.color-7 {
+  background: #FC74FD;
+}
+.progress-bar.color-7:after {
+  background: #FC74FD;
+}
+.progress-bar.color-7 span {
+  color: #FC74FD;
+}
+
 
 /* Contact icons */
 .info-feature {
@@ -669,7 +679,7 @@ h4
     background: rgba(0, 0, 0, 0.4);
   }
 
-/* llows for on hover to be effective in projects */
+/* allows for on hover to be effective in projects */
  .project .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -699,4 +709,15 @@ h4
   letter-spacing: 5px;
   margin-bottom: 2em;
   display: block;
+}
+
+/* udemy course certificates  */
+#collapseSix .row {
+  display: flex;
+  float: right;
+}
+
+#collapseSix .column {
+  flex: 33.33%;
+  padding: 5px;
 }
